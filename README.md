@@ -6,9 +6,9 @@ When starting, create a branch with your name and only push to that.
 If you push to the master, you are part of the boys and will be disqualified.
 
 # 1.	Create a javascript project . 
-It’s role is to 
+Its role is to 
 - search for a movie by a string.
-- then return the overview, tagline and vote_average  of the first three movies returned at the same time. 
+- then return the overview, tagline and vote_average  of the first three movies returned at the same time, not in sequence. 
 You do not have to show the result other than as a console.log value, but plus points are given if you use a JS SPA , make the search changeable by the user, or somehow visualize the data as HTML. You may use any library.
 
 Api to use: api.themoviedb.org  - create your own account and API key.
