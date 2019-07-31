@@ -1,0 +1,134 @@
+.container {
+  font-family: Helvetica, Sans-Serif;
+}
+
+.nav-title {
+  color: white;
+  float: right;
+  right: 20px;
+  top: 13px;
+  position: relative;
+}
+
+h1 {
+  font-weight: bold;
+  position: absolute;
+  top: 300px;
+  left: 0;
+  width: 100%;
+}
+
+h1 span {
+  color: white;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.66);
+  padding: 10px;
+  position: absolute;
+  top: -256px;
+}
+
+.banner p {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 4px 15px;
+  font-size: 11px;
+  background: #000000b5;
+  overflow: hidden;
+  max-width: 75ch;
+}
+
+h4 {
+  position: absolute;
+  float: right;
+  right: 0px;
+  top: 0px;
+  background: #ffffff;
+  padding: 3px;
+  font-size: 22px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+input {
+  padding: 0.5em;
+  font-size: 1.5em;
+  margin: 0px auto;
+  width: 40%;
+  min-width: 300px;
+  max-width: 600px;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: 1px 1px 1px black;
+}
+
+.input-container {
+  background: black;
+  padding: 25px;
+}
+
+.banner {
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 300px;
+  min-width: 300px;
+  box-shadow: 0px 0px 10px #ccc;
+  margin-top: 102px;
+}
+
+.banner .poster {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 150px;
+  bottom: 0;
+}
+
+.banner img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+}
+
+.banner .banner-info {
+  padding: 10px;
+  flex-shrink: 1;
+  flex-basis: 60%;
+  flex-grow: 1;
+}
+
+.banner .banner-vote {
+  padding: 10px;
+  flex-shrink: 1;
+  flex-basis: 60%;
+  flex-grow: 1;
+}
+
+.banner .rating {
+  float: left;
+  width: 23px;
+}
+
+.banner .banner-info h3 {
+  margin-top: 0;
+}
+
+.row {
+  justify-content: space-between;
+}
